@@ -1,0 +1,346 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>bootstrap by examples | 100 Days Of Code</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        
+         <nav class="navbar navbar-default navbar-fixed-top navbar-light navbar-dark">
+            <div class="container"> 
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Company name</a>
+                    <button type="button" class="navbar-toggle collapsed" data-
+                        toggle="collapse" data-target="#nav-menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="btn-group pull-right">
+                    <button type="button" class="btn btn-primary dropdown-toggle" datd-toggle="dropdown" ariahaspopup="true"  aria-expanded="false">Customer area</button>
+
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-
+toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">actions</a></li>
+                        <li><a href="#">actions</a></li>
+                        <li><a href="#">actions</a></li>
+                        <li><a href="#">actions</a></li>
+                        <li><a href="#">actions</a></li>
+                    </ul>
+                </div>
+
+                 <div class="navbar-right"  id="nav-menu" class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+   
+        <section id="intro-header">
+            <div class="container">
+                <div class="row">
+                    <div class="wrap-headline">
+                        <h1 class="text-center">Company name</h1>
+                        <h2 class="text-center">Tagline message</h2>
+                        <hr>
+                        <ul class="list-inline list-unstyled text-center">
+                            <li><a href="" class="btn btn-default btn-lg" id="js-sign-btn">Sign in</a></li>
+                            <li><a href="" class="btn btn-primary btn-lg">Sign up</a></li>
+
+                            <form id="js-signin" class="form-inline text-center hidden-element  signin">
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon">@</div>
+                                        <input type="text" class="form-control" id="signin-email" placeholder="Email">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon">*</div>
+                                        <input type="password" class="form-control" name="sign-in email" placeholder="password" id="signin-password">
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-default">Sign in</button>
+                            </form>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="img-responsive" src="img/thinking_in_textures.png" alt="phone"></img>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Lorem header</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>Lorem header</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="img/lamp.jpg" class="img-responsive" alt="phone">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <h3>Features</h3>
+                    <p>Features headline message</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2 col-md-4">
+                        <div class="feature">
+                            <span class="fa fa-clone"></span>
+                            <span class="feature-tag">Product Focus</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-4">
+                        <div class="feature">
+                            <span class="fa fa-diamond"></span>
+                            <span class="feature-tag">Special knowledge</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-4">
+                        <div class="feature">
+                            <span class="fa fa-hourglass"></span>
+                            <span class="feature-tag">Save time doing.</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-4">
+                        <div class="feature">
+                            <span class="fa fa-cube"></span>
+                            <span class="feature-tag">make it fancy</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-4">
+                        <div class="feature">
+                            <span class="fa fa-heart"></span>
+                            <span class="feature-tag">Made with love</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-4">
+                        <div class="feature">
+                            <span class="fa fa-download"></span>
+                            <span class="feature-tag">up to date</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3 class="text-center price-headline">Price table</h3>
+                    </div>
+                </div>
+
+                    <div class="row">
+                        <div class="center-block">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th class="success">
+                                            <h4 class="text-center white-text">Free Plan</h4>
+                                        </th>
+                                        <th class="info">
+                                            <h4 class="text-center white-text">Standard Plan</h4>
+                                        </th>
+                                        <th class="danger">
+                                            <h4 class="text-center white-text">Premuim Plan</h4>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="success">
+                                          <h3 class="text-center white-text">$ 0</h3></td>
+                                        <td class="info"><h3 class="text-center white-text">
+                                            $ 99
+                                        </h3></td>
+                                        <td class="danger"><h3 class="text-center white-text">$ 999</h3></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lorem ipsum.</td>
+                                        <td>Lorem ipsum.</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lorem sit amet.</td>
+                                        <td>Lorem sit amet.</td>
+                                        <td>Lore sit amet.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lorem ipsum dolor sit amet.</td>
+                                        <td>Lorem ipsum dolor sit amet.</td>
+                                        <td>Lorem ipsum dolor sit amet.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lorem ipsum dolor sit amet.</td>
+                                        <td>Lorem ipsum dolor sit amet.</td>
+                                        <td>Lorem ipsum dolor sit amet.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lorem ipsum dolor sit amet.</td>
+                                        <td>Lorem ipsum dolor sit amet.</td>
+                                        <td>Lorem ipsum dolor sit amet.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="" class="btn btn-success btn-block">Purchase</a></td>
+                                        <td> <a href="" class="btn btn-info btn-block">Purchase</a></td>
+                                        <td>
+                                            <a href="" class="btn btn-danger btn-block">Purchase</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section><!-- /#pricing -->
+
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="list-inline list-unstyled text-center">
+                            <li>
+                                <img src="img/maya-bruck.jpg" class="img-thumbnail">
+                                <h5 class="text-info">Maya Bruck</h5>
+                                <p class="text-muted">CEO</p>
+                            </li>
+                            <li>
+                                <img src="img/russ-unger.jpg" class="img-circle">
+                                <h5 class="text-info">Russ Unger</h5>
+                                <p class="text-muted">CTO</p>
+                            </li>
+                            <li>
+                                <img src="img/brad-smith.jpg" class="img-rounded">
+                                <h5 class="text-info">Brad Smith</h5>
+                                <p class="text-muted">Manager</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /#team -->
+
+        <section id="newsletter" class="text-center">
+            <h4>Stay Connected with us. Subscribe to recieve daily updates from us.</h4>
+            <form action="" method="POST" class="form-inline">
+                <div class="form-group"><input type="text" class="form-control"></div>
+                <div class="form-group"><input type="text" class="form-control"></div>
+                <button type="submit" class="btn btn-primary">Join Now!</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="col-sm-2">
+                    <img src="img/" class="img-responsive">
+                </div>
+                <div class="col-sm-2">
+                    <h5>The company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="">Documentation</a></li>
+                        <li><a href="">Publication</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Social</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                    </ul>
+                </div>    
+
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms and conditions</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Help desk</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <address>
+                        <strong>Name, Inc</strong>
+                        Address line 1 <br>
+                        Address line 2 <br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </address>
+                </div>
+            </div>
+        </footer>
+       
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    </body>
+</html>
